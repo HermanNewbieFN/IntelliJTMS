@@ -4,6 +4,7 @@ public class SecondTask {
     public static void main(String[] args) {
         radCalc();
         task2();
+        hoursCalc();
     }
 
     public static void radCalc() {
@@ -44,6 +45,22 @@ public class SecondTask {
         result= (sazh * 48 * 4.445 + arsh * 16 * 4.445 + versh * 4.446)/100;
         System.out.println(result);
     }
-}
+    public static void hoursCalc(){
+        int hours;
+        int minutes;
+        int seconds;
+        Scanner in=new Scanner(System.in);
+        System.out.println("введите сколько часов");
+        hours=in.nextInt();
+        System.out.println("введите сколько минут");
+        minutes=in.nextInt();
+        System.out.println("введите сколько секунд");
+        seconds=in.nextInt();
+        int result;
+        result= (hours * 3600) + (minutes * 60) + (seconds);
+        System.out.println(result);
+    }
+    }
+
 
 
