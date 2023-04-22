@@ -5,6 +5,7 @@ public class SecondTask {
         radCalc();
         task2();
         hoursCalc();
+        task4();
     }
 
     public static void radCalc() {
@@ -59,6 +60,24 @@ public class SecondTask {
         int result;
         result= (hours * 3600) + (minutes * 60) + (seconds);
         System.out.println(result);
+    }
+    public static void task4() {
+        int h1;
+        int m1;
+        int h2;
+        int m2;
+        int waym;
+        Scanner in = new Scanner(System.in);
+        System.out.println("введите время отправления поезда - час");
+        h1 = in.nextInt();
+        System.out.println("введите время отправления поезда - минута");
+        m1 = in.nextInt();
+        System.out.println("введите время прибытия поезда - час");
+        h2 = in.nextInt();
+        System.out.println("введите время прибытия поезда - минута");
+        m2 = in.nextInt();
+        waym = ((h2 * 60) + m2) - ((h1 * 60) + m1);
+        System.out.println("Поезд был в дороге " + waym);
     }
     }
 
