@@ -1,9 +1,9 @@
-import java.sql.Time;
 import java.util.Scanner;
 
 public class SecondTask {
     public static void main(String[] args) {
         radCalc();
+        task2();
     }
 
     public static void radCalc() {
@@ -29,4 +29,21 @@ public class SecondTask {
         System.out.println(radianangle);
 
     }
+    public static void task2(){
+        double sazh;
+        double arsh;
+        double versh;
+        Scanner in=new Scanner(System.in);
+        System.out.println("введите кол-ва Саженя");
+        sazh=in.nextInt();
+        System.out.println("введите кол-ва Аршина");
+        arsh=in.nextInt();
+        System.out.println("введите кол-ва Вершков");
+        versh=in.nextInt();
+        double result;
+        result= (sazh * 48 * 4.445 + arsh * 16 * 4.445 + versh * 4.446)/100;
+        System.out.println(result);
+    }
 }
+
+
