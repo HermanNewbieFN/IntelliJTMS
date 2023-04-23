@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SecondTask {
+public class tasksTMS {
     public static void main(String[] args) {
         radCalc();
         task2();
