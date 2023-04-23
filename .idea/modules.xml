@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SecondTask.iml" filepath="$PROJECT_DIR$/SecondTask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasksTMS.iml" filepath="$PROJECT_DIR$/tasksTMS.iml" />
     </modules>
   </component>
 </project>
